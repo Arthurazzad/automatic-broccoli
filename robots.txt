@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Blok area yang tidak perlu di-crawl (jika ada)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /account/
+Disallow: /users/
+Disallow: /*?*
+Disallow: /*.json$
+Disallow: /*.xml$
+
+# Izinkan sitemap
+Sitemap: https://b.caw.quest/sitemap.xml
